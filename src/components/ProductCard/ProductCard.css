@@ -1,0 +1,36 @@
+.productCard{
+    height: 57vh;
+    width: 18vw;
+    box-shadow: 0 3px 5px 1px rgb(144, 144, 149) ;
+    border-radius: 20px;
+}
+
+.CardImg{
+    height: 38%;
+    width: 100%;
+    border-radius: 20px;
+}
+.cardCanten{
+    margin: 15px;
+    padding: 5px;
+}
+.title{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    font-size: 15px;
+}
+.link{
+    border-bottom: 2px solid #032d60;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #032d60;
+   cursor: pointer;
+}
+.link:hover{
+    border-color:#0176d3 ;
+    color: #0176d3;
+}
