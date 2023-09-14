@@ -6,8 +6,8 @@ export default function Button({text}){
     );
 }
 
-export function DarkButton({text}){
+export function DarkButton({text , color}){
     return(
-        <button type="button" className="darkButton">{text}</button>
+        <button type="button" className={color}>{text}</button>
         );
 }
