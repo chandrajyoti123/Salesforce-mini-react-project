@@ -1,7 +1,7 @@
-import 'Button.css';
+import './Button.css'
 
 export default function Button({text}){
     return(
-    <button type="button" className="lineButton">{text}</button>
+    <button type="button" className="linebutton">{text}</button>
     );
 }
