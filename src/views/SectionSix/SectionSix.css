@@ -1,5 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.image
+{
+    height: 250px;
+    
+}
+.back-image
+{
+    width: 100vw;
+}
+.main-container
+{
+    background-color: rgb(244, 246, 248);
+}
+.text
+{
+    font-size: 18px;
 }
