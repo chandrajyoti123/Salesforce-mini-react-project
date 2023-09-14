@@ -1,5 +1,5 @@
 export default function SectionThree(){
     return(
-        hello
+        <h1>hello</h1>
     )
 }

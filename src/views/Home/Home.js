@@ -1,3 +1,4 @@
+import Navbar from "../../components/Navbar/Navbar"
 import SectionOne from "../SectionOne/SectionOne"
 import SectionTwo from "../SectionTwo/SectionTwo"
 import SectionThree from "../SectionThree/SectionThree"
@@ -8,10 +9,11 @@ import SectionSeven from "../SectionSeven/SectionSeven"
 
 
 
+
 export default function Home(){
     return(
         <>
-        <Button text="read me"/>
+      <Navbar/>
        <SectionOne/>
        <SectionTwo/>
        <SectionThree/>
