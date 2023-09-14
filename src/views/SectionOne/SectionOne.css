@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sectionOne{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(235, 235, 134);
+    display: flex;
+    justify-content: space-around;
+
+}
+.sectionOneOfOne{
+    width: 47%;
+ 
+   padding-top: 180px;
+ 
+}
+.sectionOneOfTwo{
+    width: 43%;
+    
+    height: 100%;
+ 
+}
+
+
+.sectionOneImage{
+    width: 100%;
+    margin-top: 50px;
+  
+}
+.slogen{
+    font-size: 48px;
+    line-height: 50px;
+    font-weight:500;
+    color: blue;
+}
+
+.text{
+    font-size: 23px;
+    margin-top: 20px;
+}
+.buttonGroup{
+    display: flex;
+    margin-top: 20px;
+}
+.buttonRight{
+    margin-left: 10px;
+
+}
