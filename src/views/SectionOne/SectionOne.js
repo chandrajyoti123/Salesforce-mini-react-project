@@ -1,5 +1,5 @@
 export default function SectionOne(){
     return(
-        hello
+        <h1>hello</h1>
     )
 }

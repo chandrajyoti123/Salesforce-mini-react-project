@@ -1,5 +1,5 @@
 export default function SectionSeven(){
     return(
-        hello
+        <h1>hello</h1>
     )
 }
