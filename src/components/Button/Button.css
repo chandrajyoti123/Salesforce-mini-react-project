@@ -1,5 +1,25 @@
-.linebutton{
-    height: 35px;
-    margin-top: 100px;
+.lineButton{
+    border: 2px solid #0176d3;
+    background: none;
+    color: #0176d3;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.lineButton:hover{
+    background-color: #eaf5fe;
+    border: 2px solid #032d60;
+    color:#032d60 ;
+}
 
+/* -------- Dark Button ---------------- */
+.darkButton{
+    background-color: #0176d3;
+    color: white; 
+}
+.darkButton:hover{
+    background-color: #032d60;
 }
