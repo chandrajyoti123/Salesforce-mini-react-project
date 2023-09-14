@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHippo } from "@fortawesome/free-solid-svg-icons";
 
 
+
+
 export default function Navbar(){
     return(
         <div>
@@ -32,6 +34,7 @@ export default function Navbar(){
                 <span>1800-420-7332</span>
             </div>
             <span>   <FontAwesomeIcon icon={faHippo} /></span>
+            <span> <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /></span>
             
             
             </div>
