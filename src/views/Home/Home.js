@@ -4,7 +4,9 @@ export default function Home(){
     return(
         <>
         <Button text="read me"/>
-        <TechnologyCard/>
+        <TechnologyCard text="$ 1.5B"/>
+        <TechnologyCard text="FORTUNE"/>
+        <TechnologyCard text="FORTUNE"/>
         </>
 
 

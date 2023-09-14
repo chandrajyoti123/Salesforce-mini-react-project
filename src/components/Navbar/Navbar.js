@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHippo } from "@fortawesome/free-solid-svg-icons";
+import { faHippo,faMagnifyingGlass,FaMagnifyingGlass} from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -34,7 +34,7 @@ export default function Navbar(){
                 <span>1800-420-7332</span>
             </div>
             <span>   <FontAwesomeIcon icon={faHippo} /></span>
-            <span> <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /></span>
+            <span> <FontAwesomeIcon icon={faMagnifyingGlass} /></span>
             
             
             </div>
