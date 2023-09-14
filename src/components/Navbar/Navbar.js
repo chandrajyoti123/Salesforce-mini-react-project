@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHippo,faMagnifyingGlass,faGlobe,faUser} from "@fortawesome/free-solid-svg-icons";
+import {faMagnifyingGlass,faGlobe,faUser} from "@fortawesome/free-solid-svg-icons";
 import './Navbar.css'
 import Button from "../Button/Button";
 
@@ -21,7 +21,7 @@ export default function Navbar(){
 
             </span>
         
-         <ul>
+         <ul className="navbarList">
                 <li> <a href="#">Product</a></li>
                 <li> <a href="#">Industries</a> </li>
                 <li><a href="#">Customer</a></li>
