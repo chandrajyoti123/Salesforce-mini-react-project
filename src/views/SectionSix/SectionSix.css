@@ -24,4 +24,12 @@
 .text
 {
     font-size: 18px;
+    margin: 5px;
+}
+.tech-text
+{
+    text-align: center;
+    color: blue;
+    
+    padding: 40px;
 }
