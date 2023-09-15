@@ -1,0 +1,15 @@
+
+
+.card{
+    margin: 0 15px;
+box-shadow:0 0 10px 0 rgb(192, 191, 191);
+height: 100px;
+width: 200px;
+border-radius: 5px;
+}
+.image-logo
+{
+    height: 40px;
+    margin-top: 30px;
+    /* margin-left: 13px; */
+}
