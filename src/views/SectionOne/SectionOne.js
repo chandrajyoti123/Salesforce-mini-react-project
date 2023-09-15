@@ -4,6 +4,7 @@ import './SectionOne.css'
 
 export default function SectionOne(){
     return(
+        
         <div className='sectionOne'>
            <div className='sectionOneOfOne'>
            <div className='slogen'>AI + Data + CRM = more <br/> sales and happier <br/> customers. </div>
@@ -19,5 +20,8 @@ export default function SectionOne(){
             <img className='sectionOneImage' src={backgroundimage}/>
            </div>
         </div>
+        
+        
+       
     )
 }

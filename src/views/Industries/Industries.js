@@ -1,5 +1,10 @@
+import Navbar from "../../components/Navbar/Navbar"
+import SectionOne from "../SectionOne/SectionOne"
 export default function Industries(){
     return(
-        <h1>Industries</h1>
+       <div>
+        <Navbar/>
+        <SectionOne/>
+       </div>
     )
 }

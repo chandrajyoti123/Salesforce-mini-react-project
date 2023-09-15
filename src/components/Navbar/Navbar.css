@@ -40,6 +40,11 @@
   font-size: 20px;
   font-weight: 500;
 }
+.active{
+  color: blue !important;
+ 
+
+}
 .contact{
   display: flex;
   flex-direction: column;

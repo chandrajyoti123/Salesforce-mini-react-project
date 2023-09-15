@@ -1,5 +1,10 @@
-export default function Salesforce(){
+import Navbar from "../../components/Navbar/Navbar"
+import SectionOne from "../SectionOne/SectionOne"
+export default function SalesForce(){
     return(
-        <h1>Salesforce</h1>
+       <div>
+        <Navbar/>
+        <SectionOne/>
+       </div>
     )
 }
