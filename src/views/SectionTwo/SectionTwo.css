@@ -1,0 +1,16 @@
+.bg-image{
+    position: relative;
+    bottom: 190px;
+}
+.heading{
+    width: 700px;
+    text-align: center;
+    color: #032d60;
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.margin-top{
+    top: 50px ;
+
+}
+ 
