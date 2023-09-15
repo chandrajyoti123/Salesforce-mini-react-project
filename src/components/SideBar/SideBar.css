@@ -1,0 +1,6 @@
+#sidebar{
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(110, 199, 110);
+    overflow: scroll;
+}

@@ -1,6 +1,14 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faMagnifyingGlass,faGlobe,faUser} from "@fortawesome/free-solid-svg-icons";
+
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+
+
+
+
+
+
 import './Navbar.css'
 import Button from "../Button/Button";
 
@@ -40,7 +48,7 @@ export default function Navbar(){
            
                <span className="iconHover"> <FontAwesomeIcon icon={faMagnifyingGlass} /></span>
                <span className="iconHover"> <FontAwesomeIcon icon={faGlobe} /></span>
-               <span className="userLogin"><FontAwesomeIcon icon={faUser} /> Login</span>
+               <span className="userLogin"><FontAwesomeIcon icon={faFacebook} /> login</span>
                <Button text="Try for free"/>
             
             
