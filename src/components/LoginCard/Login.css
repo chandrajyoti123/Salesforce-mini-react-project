@@ -1,25 +1,40 @@
 .loginCard{
     border: 2px solid gray;
     background-color: white;
-    width: 50vw;
-    padding: 30px;
+    width: 30vw;
+    padding: 30px; 
+    color: #54698d;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.flex-box{
     display: flex;
     flex-direction: column; 
-    color: gray;
-    font-size: 20px;
+    background-color: white;
 }
 .inputBox{
     border: 1px solid gray;
     height: 55px;
     border-radius: 5px;
     margin-bottom: 20px;
+    background-color: white;
 }
 .checkbox input{
     height: 35px;
     position: relative;
     top: 10px;
+    background-color: white;
 }
 .checkbox label{
     font-size: 23px;
     color: rgb(70, 70, 70);
+    background-color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.forget{
+    text-decoration: none;
+    background-color: white;
+    font-size: 15px;
 }
