@@ -1,11 +1,13 @@
 import './SectionFour'
+import FreeTrile from '../../components/FreeTrile/FreeTrile'
+
 export default function SectionFour() {
     return (
         <>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        Column
+            <div className="container text-center">
+                <div className="row">
+                    <div className="col">
+                        <FreeTrile />
                     </div>
                 </div>
             </div>
