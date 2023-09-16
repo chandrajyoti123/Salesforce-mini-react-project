@@ -17,11 +17,9 @@ import './Home.css'
 export default function Home(){
     return(
         <div className="home">
+      
+      <div className="navbarfixed">
       <Navbar/>
-      <div className="sidebar">
-        <div className="side">
-
-        </div>
       </div>
        <SectionOne/>
        <SectionTwo/>
