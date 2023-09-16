@@ -3,6 +3,7 @@ import ProductBar from "../../../components/ProductBar/ProductBar"
 
 import imgofcompany1 from './indusimg1.svg'
 import imgofcompany2 from './indusimg2.svg'
+import LearningBar from "../../../components/LearningBar/LearningBar"
 
 
 export default function SideBarCompany(){
@@ -12,8 +13,10 @@ export default function SideBarCompany(){
         
      
          <div className='leftsidebarlist'>  
-       <ProductBar imgofproductbar={imgofcompany1} producttext={"Customer Stories"}/>
-       <ProductBar imgofproductbar={imgofcompany2} producttext={"Trailblazer Stories"}/>
+       
+       <LearningBar learnbrtext={"Customer Stories"}/>
+       <LearningBar learnbrtext={"Trailblazer Stories"}/>
+
       
 
 
