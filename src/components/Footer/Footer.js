@@ -3,10 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGlobe} from "@fortawesome/free-solid-svg-icons";
 import "./Footer.css"
 import Button from "../Button/Button"
+
+
+
+
 export default function Footer() {
   return (
     <>
-
+        
       <div className="maincontaineroffooter">
 
         <div className="sectionoffoter ">
@@ -108,8 +112,8 @@ export default function Footer() {
             </div>
           </div>
      </div>
-
+     
     </>
-
+      
   )
 }
