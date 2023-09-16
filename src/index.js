@@ -10,6 +10,7 @@ import Support from './views/Supports/Supports';
 import Company from './views/Company/Company';
 import Salesforce from './views/SalesForce/SalesForce';
 import SideBarRight from './components/SideBarRight/SideBarRight';
+import TryForFree from './views/TryForFree/TryForFree';
 import img1 from "./img/img1.svg"
 import img2 from "./img/img2.svg"
 import img3 from "./img/img3.svg"
@@ -24,6 +25,7 @@ import img11 from "./img/img11.svg"
 import img12 from "./img/img12.svg"
 import img13 from "./img/img13.svg"
 import img14 from "./img/img14.svg"
+import UserLogin from './views/UserLogin/UserLogin';
 
 import {
    createBrowserRouter,
@@ -61,6 +63,14 @@ import {
    {
      path: "/salesforce",
      element:<Salesforce/>,
+   },
+   {
+     path: "/userlogin",
+     element:<UserLogin/>,
+   },
+   {
+     path: "/tryforfree",
+     element:<TryForFree/>,
    },
    {
      path: "/bar1",
