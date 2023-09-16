@@ -78,42 +78,42 @@ h6{
     width: 85%;
 }
 @media screen and (max-width:600px){
-    .maincontaineroffooter ul li{
-        font-size: 8px;
+    .maincontaineroffooter {
+        display: none;
     }
-    li{
-        line-height: 1rem;
-    }
-    .icons{
-        font-size: 15px;
-
-    }
-    .fa-brands{
-        font-size: 18px;
-
-    }
-    .text1{
-        font-size: 8px;
-    }
+   
+   
     .lastfooterpart{
-        height: 80px;
+        margin: 0px;
+        padding: 0px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+
     }
-    .copyrightfoter{
-        padding-top: 5px;
-        font-size: 8px;
-    }
-    .lastlinks ul li a{
-        font-size: 5px;
+    .firstpart{
+        display: block;
+        margin-left: auto;
+       margin-right: auto;
+       margin-top: 0px;
+       position: relative;
+       right: 15px;
     }
     .btnrearth{
-        padding: 3px;
-        width: 90px;
-        margin: 19px;
+        padding: 4px;
+        width: 140px;
+        margin: 0px;
+    }
+    .copyrightfoter{
+        padding-top: 0px;
         font-size: 12px;
-
     }
-    h6{
-        font-size: 9px;
+    .lastlinks ul li a{
+        font-size: 10px;
+        padding-top: 0px;
+        color: #00a1e0;
     }
+  
+  
     
 }
