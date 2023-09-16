@@ -1,5 +1,12 @@
+import './UserLogin.css'
+import Login from "../../components/LoginCard/Login"
+
 export default function UserLogin(){
     return(
-        <h1>User Login</h1>
+        <>
+        <div className="login-cantainer">
+        <Login />
+        </div>
+        </>
     )
 }

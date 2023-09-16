@@ -1,0 +1,25 @@
+.loginCard{
+    border: 2px solid gray;
+    background-color: white;
+    width: 50vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; 
+    color: gray;
+    font-size: 20px;
+}
+.inputBox{
+    border: 1px solid gray;
+    height: 55px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.checkbox input{
+    height: 35px;
+    position: relative;
+    top: 10px;
+}
+.checkbox label{
+    font-size: 23px;
+    color: rgb(70, 70, 70);
+}
