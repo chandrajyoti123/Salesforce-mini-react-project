@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.sales-container
+{
+    display: flex;
+}
+.image-salesforce{
+   margin: 30px;
+
+}
+
+.salesforce-text{
+    margin: 20px;
+    margin-left: 20px;
+}
+.start-text
+{
+    font-weight: 700;
+   
+    font-size: 35px;
+}
+.nocredit-text
+{
+    font-size:20px ;
+}
+.image-trailsalesforce{
+    height: 300px;
+    margin-top: 10px;
+}
+.no-text{
+    font-size: 20px;
+}
+
+.input-card{
+    border: 1px solid black;
+    height: 500px;
+    width: 450px;
+    margin-left: 150px;
+    margin: 30px;
+}
+
+.lfname
+{
+    display: flex;
+   
+}
+.fname
+{
+    margin: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.lname{
+    margin: 10px;
+    height: 35px;
+    width: 202px;
+}
