@@ -1,13 +1,13 @@
 .companycardofsectionthree{
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: center;
     margin: 30px;
 }
 
 .companycard{
  display: flex;
- flex-wrap: wrap;
+ 
  justify-content: center;
 }
 .companytext
@@ -26,12 +26,12 @@
 }
 .sectionthreesvg
 {
-    margin-top: -280px;
+    margin-top: -250px;
 }
 .grpbtn{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+ 
     margin-left: 500px;
   
 }
