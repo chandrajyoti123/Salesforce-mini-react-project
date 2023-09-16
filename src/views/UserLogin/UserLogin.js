@@ -8,7 +8,7 @@ export default function UserLogin() {
     return (
         <>
             <div className="login-cantainer">
-                <img src={logo} className='logo' />
+                <img src={logo} className='logoOfSelforce' />
                 <Login />
                 <div className='button-div'>
                     <p className='text'>Not a customer?</p>
