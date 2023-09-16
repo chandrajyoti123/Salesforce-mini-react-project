@@ -33,7 +33,7 @@ export default function Learning(){
 <img src={bcimgtop} className="industriesupimg learningimgtop"/>
             <div className="industriesbtn"><img src={learningicon} className="industriesicon"/></div>
         <div className='SectionSevenSlogen'>Become a Trailblazer.</div>
-        <div className='SectionSeventext '>Unlock free hands-on learning, our <br/> global community, original series, and <br/> support.
+        <div className='SectionSeventext textalign'>Unlock free hands-on learning, our <br/> global community, original series, and <br/> support.
         </div> 
        
         <div className="industriesbtn"><DarkButton text={"Join for free"} color={"BlueButton"}/></div>

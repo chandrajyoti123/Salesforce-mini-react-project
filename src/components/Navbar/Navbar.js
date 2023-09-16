@@ -35,7 +35,7 @@ export default function Navbar(){
                 <li> <Link to="/learning" className={path==='/learning'?'active':''}>Learning</Link> </li>
                 <li> <Link to="/support" className={path==='/support'?'active':''}>Support</Link> </li>
                 <li> <Link to="/customers" className={path==='/customers'?'active':''}>Company</Link> </li>
-                <li> <Link to="/salesforce" className={path==='/salesforce'?'active':''}>Salesforce</Link></li>
+                <li> <Link to="/salesforce" className={path==='/salesforce'?'active':''}>Salesforce+</Link></li>
                 
             </ul>
             <div className="leftNavList">
@@ -48,7 +48,7 @@ export default function Navbar(){
                <span className="iconHover"> <FontAwesomeIcon icon={faMagnifyingGlass} /></span>
                <span className="iconHover"> <FontAwesomeIcon icon={faGlobe} /></span>
               <Link to="/userlogin"> <span className="userLogin"><FontAwesomeIcon icon={faUser} /> login</span> </Link>
-               <Link to="tryforfree"><DarkButton text="Try for free" color={"GreenButton"}/></Link>
+               <Link to="/tryforfree"><DarkButton text="Try for free" color={"GreenButton"}/></Link>
             
             
             </div>
