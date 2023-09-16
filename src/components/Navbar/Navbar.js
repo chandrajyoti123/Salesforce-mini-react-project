@@ -35,10 +35,10 @@ export default function Navbar(){
          <ul className="navbarList">
                 <li> <Link to="/product" className={path==='/product'?'active':''}>Product</Link></li>
                 <li> <Link to="/industries" className={path==='/industries'?'active':''}>Industries</Link> </li>
-                <li> <Link to="/customers" className={path==='/customers'?'active':''}>Customer</Link></li>
+                <li> <Link to="/company" className={path==='/company'?'active':''}>Customer</Link></li>
                 <li> <Link to="/learning" className={path==='/learning'?'active':''}>Learning</Link> </li>
                 <li> <Link to="/support" className={path==='/support'?'active':''}>Support</Link> </li>
-                <li> <Link to="/company" className={path==='/company'?'active':''}>Company</Link> </li>
+                <li> <Link to="/customers" className={path==='/customer'?'active':''}>Company</Link> </li>
                 <li> <Link to="/salesforce" className={path==='/salesforce'?'active':''}>Salesforce</Link></li>
                 
             </ul>
@@ -51,8 +51,8 @@ export default function Navbar(){
            
                <span className="iconHover"> <FontAwesomeIcon icon={faMagnifyingGlass} /></span>
                <span className="iconHover"> <FontAwesomeIcon icon={faGlobe} /></span>
-               <span className="userLogin"><FontAwesomeIcon icon={faFacebook} /> login</span>
-               <Button text="Try for free"/>
+              <Link to="/userlogin"> <span className="userLogin"><FontAwesomeIcon icon={faFacebook} /> login</span> </Link>
+               <Link to="tryforfree"><Button text="Try for free"/></Link>
             
             
             </div>

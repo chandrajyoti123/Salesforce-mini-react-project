@@ -1,32 +1,11 @@
-import "./SideBar.css"
-import ProductCard from "../ProductCard/ProductCard"
+import SideBarLeft from "../SideBarLeft/SideBarLeft"
+import SideBarRight from "../SideBarRight/SideBarRight"
 export default function SideBar(){
     return(
-      <div className="sidebar">
-         <div className="leftsidebar">
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-
-       </div>
-       <div className="rightsidebar">
-       <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        
-       </div>
-      </div>
-        )
+        <div className="Sidebar">
+            <SideBarLeft/>
+            <SideBarRight/>
+            
+        </div>
+    )
 }

@@ -1,15 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.sideBar{
-    display: flex;
-    flex-direction: row;
 
-}
-
-
-.sidebarright{
+  .sidebarright{
     width: 50vw;
     height: 100vh;
     /* background-color: rgb(238, 201, 207); */
@@ -52,8 +42,8 @@
     width: 100%;
    }
    .sidebarrighticon{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #fff;
     box-shadow: 0 0 10px 0.5px rgb(165, 159, 159);
@@ -64,6 +54,6 @@
 
    }
    .sidebarrightimg{
-    width: 45px;
+    width: 30;
 
    }
