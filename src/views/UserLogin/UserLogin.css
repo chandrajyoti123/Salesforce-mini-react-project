@@ -1,0 +1,23 @@
+
+.login-cantainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:500px ;
+    margin-left: 30%;
+    margin-right: 50%;
+}
+.logoOfSelforce{
+    width: 200px ;
+    margin: 30px;
+    margin-left: 30%;
+}
+.button-div{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.text{
+    position: relative;
+    top: 8px;
+}

@@ -4,12 +4,13 @@
 }
 .ProductBar{
     width: 0;
-    transition: 0.6s;
-    border-radius: 10px;
+    transition: 1s;
+    border-radius: 5px;
 }
 .ProductBar:hover{
     width: 370px;
     background-color: #eaf5fe;
+    color: #0176d3;
 }
 .ProductBarbox{
     width: 370px;

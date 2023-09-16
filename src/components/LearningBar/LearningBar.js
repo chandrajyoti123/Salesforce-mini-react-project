@@ -1,16 +1,16 @@
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGreaterThan} from "@fortawesome/free-solid-svg-icons";
+import './LearningBar.css'
+import arrow from "./right-arrow.png"
 
 
 
 export default function LearningBar({learnbrtext}){
     return(
-        <div className="ProductBar">
-          <div className="ProductBarbox">
+        <div className="ProductBar learningBar">
+          <div className="ProductBarbox learningbarbox">
           
-          <span className='ProductBartext'>{learnbrtext}</span>
-          <span><FontAwesomeIcon icon={faGreaterThan} /> </span>
+          <span className='ProductBartext learningbartext'>{learnbrtext}</span>
+          <span><img src={arrow} className="rightarrow"/></span>
           </div>
         </div>
     )
