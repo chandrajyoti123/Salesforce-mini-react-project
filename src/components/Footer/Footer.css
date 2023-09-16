@@ -77,3 +77,43 @@ h6{
 .secondpart{
     width: 85%;
 }
+@media screen and (max-width:600px){
+    .maincontaineroffooter ul li{
+        font-size: 8px;
+    }
+    li{
+        line-height: 1rem;
+    }
+    .icons{
+        font-size: 15px;
+
+    }
+    .fa-brands{
+        font-size: 18px;
+
+    }
+    .text1{
+        font-size: 8px;
+    }
+    .lastfooterpart{
+        height: 80px;
+    }
+    .copyrightfoter{
+        padding-top: 5px;
+        font-size: 8px;
+    }
+    .lastlinks ul li a{
+        font-size: 5px;
+    }
+    .btnrearth{
+        padding: 3px;
+        width: 90px;
+        margin: 19px;
+        font-size: 12px;
+
+    }
+    h6{
+        font-size: 9px;
+    }
+    
+}

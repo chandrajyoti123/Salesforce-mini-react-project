@@ -31,7 +31,7 @@ export default function Footer() {
 
 
 
-        </div>
+         </div>
 
         <div className="section">
 
@@ -79,6 +79,9 @@ export default function Footer() {
         </div>
 
       </div>
+
+
+        {/* this part is last blue links part */}
 
       <div className="lastfooterpart">
 
