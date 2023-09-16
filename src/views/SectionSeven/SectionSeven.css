@@ -20,12 +20,12 @@
 }
 .SectionSevenSlogen{
     text-align: center;
-    font-size: 35px;
-    color: blue;
-    font-weight: 900;
+    font-size: 40px;
+    color: #032d60;
+    font-weight: bold;
 }
 .SectionSeventext{
-    text-align: center;
+    /* text-align: center; */
     font-size: 21px;
     margin-top: 25px;
 }
@@ -40,5 +40,6 @@
 .sectionSevenlist a{
     font-size: 20px;
     margin-right: 100px;
+    color: rgb(62, 60, 60);
 
 }

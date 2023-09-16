@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.main-container{
+.maincontaineroffooter{
     background-color: white;
  
     display: flex;
@@ -43,7 +43,7 @@ h6{
   display: flex;
   justify-content: space-around;
 }
-p{
+.copyrightfoter{
     color: aliceblue;
     font-size: 12px;
     text-align: center;
@@ -67,7 +67,9 @@ p{
     border: 1px solid white;
     margin: 27px;
     border-radius: 5px;
+    transition: 0.7s;
 }
+
 .firstpart{
     width: 15%;
     text-align: right;

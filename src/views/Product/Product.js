@@ -15,7 +15,7 @@ export default function Product({imgofsidebar,slogen}){
        <div className="sideBar">
         <SideBarLeft/>
         <div className='sidebarright'>
-        <span className='sidebarrighticon'><img src={imgofsidebar} className='sidebarrightimg'/></span>
+        <span className='sidebarrighticon'><img src={imgofsidebar}   className='sidebarrightimg'/></span>
         <div className='SectionSevenSlogen sidebarrightsolgen'>{slogen}</div>
         <div className='SectionSeventext sidebarrighttext'>Personalise every experience along the <br/> customer journey on the  world's #1 CRM.
         </div> 

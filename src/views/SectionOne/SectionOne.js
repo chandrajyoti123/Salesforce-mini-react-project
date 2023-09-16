@@ -8,7 +8,7 @@ export default function SectionOne(){
         <div className='sectionOne'>
            <div className='sectionOneOfOne'>
            <div className='slogen'>AI + Data + CRM = more <br/> sales and happier <br/> customers. </div>
-          <div className='text'>Discover trusted AI that helps you connect with your customers in <br/> a whole new way.</div>
+          <div className='SectionSeventext  text'>Discover trusted AI that helps you connect with your customers in <br/> a whole new way.</div>
           <div className='buttonGroup'>
             <DarkButton text="Start Free Trial" color={"BlueButton"}/> 
          <div className='buttonRight'>
