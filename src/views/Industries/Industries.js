@@ -19,7 +19,7 @@ export default function Industries(){
             <img src={Upimg} className="industriesupimg"/>
             <div className="industriesbtn"><img src={imgicon} className="industriesicon"/></div>
         <div className='SectionSevenSlogen'>Explore Salesforce for <br/> Industries</div>
-        <div className='SectionSeventext '>Get industry-specific innovations that <br/> modernise your business, speed up <br/> time to value and boost productivity.
+        <div className=' SectionSeventext textalign '>Get industry-specific innovations that <br/> modernise your business, speed up <br/> time to value and boost productivity.
         </div> 
         {/* <div className='sidebarrightanchor'>Get industry-specific innovations that <br/> modernise your business, speed up <br/> time to value and boost productivity.</div> */}
         <div className="industriesbtn"><DarkButton text={"See all industries"} color={"BlueButton"}/></div>

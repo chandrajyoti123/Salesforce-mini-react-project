@@ -33,7 +33,7 @@ export default function Customers(){
 <img src={bcimgtop} className="industriesupimg learningimgtop"/>
             <div className="industriesbtn"><img src={learningicon} className="industriesicon"/></div>
         <div className='SectionSevenSlogen'>Hear our Story</div>
-        <div className='SectionSeventext '> We believe in building relationships - <br/> not just between companies and <br/> customers, but among our global <br/> communities. </div> 
+        <div className='SectionSeventext textalign'> We believe in building relationships - <br/> not just between companies and <br/> customers, but among our global <br/> communities. </div> 
        
         <div className="industriesbtn"><DarkButton text={"Learn about us"} color={"BlueButton"}/></div>
         <img src={bcimgbottom} className="industriesbcimg"/>

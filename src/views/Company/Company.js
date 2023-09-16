@@ -35,7 +35,7 @@ export default function Company(){
             
           <img src={bcupimg} className="backgroundimgup"/>  
         <div className='SectionSevenSlogen'>Explore succes Stories</div>
-        <div className='SectionSeventext '>See how our customers transform their <br/> businesses with AI + Data + CRM.
+        <div className='SectionSeventext textalign'>See how our customers transform their <br/> businesses with AI + Data + CRM.
         </div> 
         {/* <div className='sidebarrightanchor'>Get industry-specific innovations that <br/> modernise your business, speed up <br/> time to value and boost productivity.</div> */}
         <div className="industriesbtn"><DarkButton text={"See all Stories"} color={"BlueButton"}/></div>
