@@ -77,3 +77,43 @@ h6{
 .secondpart{
     width: 85%;
 }
+@media screen and (max-width:600px){
+    .maincontaineroffooter {
+        display: none;
+    }
+   
+   
+    .lastfooterpart{
+        margin: 0px;
+        padding: 0px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .firstpart{
+        display: block;
+        margin-left: auto;
+       margin-right: auto;
+       margin-top: 0px;
+       position: relative;
+       right: 15px;
+    }
+    .btnrearth{
+        padding: 4px;
+        width: 140px;
+        margin: 0px;
+    }
+    .copyrightfoter{
+        padding-top: 0px;
+        font-size: 12px;
+    }
+    .lastlinks ul li a{
+        font-size: 10px;
+        padding-top: 0px;
+        color: #00a1e0;
+    }
+  
+  
+    
+}
