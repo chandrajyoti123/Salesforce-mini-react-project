@@ -26,6 +26,7 @@ import img12 from "./img/img12.svg"
 import img13 from "./img/img13.svg"
 import img14 from "./img/img14.svg"
 import UserLogin from './views/UserLogin/UserLogin';
+import Navlinks from './views/NavLinks/NavLinks';
 
 import {
    createBrowserRouter,
@@ -72,6 +73,10 @@ import {
      path: "/tryforfree",
      element:<TryForFree/>,
    },
+   {
+    path: "/navlinks",
+    element:<Navlinks/>,
+  },
    {
      path: "/bar1",
      element:<Product imgofsidebar={img1} slogen={"Customer 360"}/>,

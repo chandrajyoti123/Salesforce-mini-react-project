@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faMagnifyingGlass,faGlobe,faUser} from "@fortawesome/free-solid-svg-icons";
+import {faMagnifyingGlass,faGlobe,faUser,faBars} from "@fortawesome/free-solid-svg-icons";
 
 import { DarkButton } from "../Button/Button";
 
@@ -20,6 +20,7 @@ import navlogo from './logo-salesforce1.svg'
 export default function Navbar(){
     const path=window.location.pathname;
     return(
+        <>
         <div className="header">
             <span className="logo">
            <Link to="/">
@@ -54,5 +55,21 @@ export default function Navbar(){
             </div>
             
         </div>
+
+
+{/* // --------meida query-------- */}
+
+
+<div className="phoneheader">
+    <Link to="/navlinks"><span  className="navmenu"><FontAwesomeIcon icon={faBars} /></span></Link>
+    
+    <img src={navlogo} className="navlogophone"/>
+    <span className="iconHover"> <FontAwesomeIcon icon={faMagnifyingGlass} /></span>
+    <Link to="/userlogin"> <span className="iconHover"><FontAwesomeIcon icon={faUser} /></span> </Link>
+
+    <Link to="/tryforfree"><DarkButton text="Try for free" color={"GreenButton"}/></Link>
+
+</div>
+</>
     )
 }
