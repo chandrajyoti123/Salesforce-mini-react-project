@@ -27,7 +27,9 @@ export default function TryForFree(){
         </div>
 
 <div className='input-card'>
-
+<h1 className='text-sign'>Sign</h1>
+<p className='text-sign'>syetrjydkfulg</p>
+<p className='text-sign'>syetrjydkfulg</p>
 
     <div className='lfname'>
 <input type="text" className="fname" name="fname" value="First Name"/>
@@ -43,6 +45,7 @@ export default function TryForFree(){
 <option value="saab">IT Manager</option>
   <option value="fiat">Operations Manager</option>
   <option value="audi">Software Engineer</option>
+  <option value="audi">Devloper</option>
   <option value="audi">Student/Job Seeker</option>
   <option value="audi">Other</option>
 </select>
