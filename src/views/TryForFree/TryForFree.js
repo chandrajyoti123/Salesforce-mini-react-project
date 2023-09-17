@@ -28,7 +28,7 @@ export default function TryForFree(){
 
 <div className='input-card'>
 <h1 className='text-sign'>Sign</h1>
-<p className='text-sign'>syetrjydkfulg</p>
+<p className='text-sign'>page</p>
 <p className='text-sign'>syetrjydkfulg</p>
 
     <div className='lfname'>
