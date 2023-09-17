@@ -1,15 +1,16 @@
 .free-trile{
-    box-shadow: 0 1px 7px 1px rgb(144, 144, 149) ;
+    box-shadow: 0 0 10px 1px rgba(144, 144, 149,0.4) ;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     border-radius: 25px;
-    margin-top:50px;
-    margin-bottom:50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-left: 15px;
+    margin:50px auto;
+   width: 90vw;
+    padding: 5px;
+   
+}
+.freetrialcol{
+    width: 50%;
 }
 .Image{
     height: 450px;
@@ -21,14 +22,77 @@
 }
 .heading{
     font-size: 43px;
-    font-weight: 400;
-    width: 600px;
-    padding: 40px;
-    text-align: left;
+    font-weight:bold;
+    width:100vw;
+    padding:0 100px;
+    /* background-color: red; */
+    text-align: center;
+    margin-left: -106px;
+   
+}
+.textalignstart{
+    text-align: start;
+    padding: 50px 0 0 100px;
+    /* padding-left: 100px; */
+    width: 100%;
+    font-size: 43px;
+    font-weight:bold;
+    color: #032d60;
 }
 .button-container{
     display: flex;
     justify-content: space-evenly;
     width: 400px ;
     margin-top: 70px ;
+    padding: 0px 0 0 100px;
+}
+
+@media only screen and (max-width: 600px){
+    .heading{
+        font-size: 40px;
+        font-weight: bold;
+        width: 100vw;
+        padding:15px 40px;
+        text-align: center;
+        margin-left: -12px;
+    }
+    .free-trile{
+        
+     
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+      
+        margin:50px auto;
+       width: 85vw;
+        padding: 5px;
+       
+    }
+    .freetrialcol{
+        width: 100%;
+    }
+    .margins{
+       margin: 0;
+    }
+    .textalignstart{
+        text-align: start;
+        padding:20px 0 0 25px;
+        /* padding-left: 100px; */
+        width: 100%;
+        font-size: 40px;
+       
+    }
+    .button-container{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100% ;
+        margin-top: 25px ;
+        padding:0;
+       
+    }
+    .Image{
+       height: auto;
+       width: 100%;
+        
+    }
+
 }

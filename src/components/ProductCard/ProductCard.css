@@ -1,6 +1,6 @@
 .productCard{
     height: 57vh;
-    width: 18vw;
+    width: 20vw;
     box-shadow: 0 3px 5px 1px rgb(144, 144, 149) ;
     border-radius: 20px;
     margin-top: 20px;
@@ -38,10 +38,28 @@
 
 @media only screen and (max-width: 600px){
     .productCard{
-        width: 500px;
-        box-shadow: 0 3px 5px 1px rgb(144, 144, 149);
+        height: 400px;
+        width: 80vw;
+        box-shadow: 0 3px 5px 1px rgb(144, 144, 149) ;
         border-radius: 20px;
         margin-top: 20px;
-        margin-left: 20%;
+        display: block;
+        margin: 30px auto 0 auto;
+
+    }
+    .title{
+        font-size: 25px;
+       
+    }
+    .content{
+        font-size: 20px;
+    }
+    .link{
+        border-bottom: 2px solid #032d60;
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 18px;
+        color: #032d60;
+       cursor: pointer;
     }
 }

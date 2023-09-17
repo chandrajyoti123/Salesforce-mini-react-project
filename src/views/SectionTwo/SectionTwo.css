@@ -3,14 +3,62 @@
     bottom: 190px;
 }
 .heading{
-    width: 700px;
+    width: 100vw;
     text-align: center;
     color: #032d60;
     font-size: 33px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 .margin-top{
-    top: 50px ;
+    top: 50px;
 
 }
+.sectiontowbtn{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
+
+/* ---------media query------------ */
+
+@media screen and (max-width:600px){
+    /* .seconeheadcon{
+        width: 100vw;
+
+    }
+    .sectiononerow {
+        width: 100%;
+    }
+    .section-heading{
+        width: 100%;
+    }
+    .slogenofsectionone{
+        padding: 0 100px;
+        background-color: blueviolet;
+        width: 100%;
+    } */
+    
+    .sectiononecards{
+       
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+       
+        
+       
+    }
+    .bg-image{
+        position: relative;
+        bottom: 50px;
+    }
+    .sectiontowbtn{
+        width: 100vw;
+        
+       
+        margin-left: -12px;
+    }
+
+
+}

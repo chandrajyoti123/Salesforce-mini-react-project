@@ -62,8 +62,8 @@ export default function Navbar(){
 
 <div className="phoneheader">
     <Link to="/navlinks"><span  className="navmenu"><FontAwesomeIcon icon={faBars} /></span></Link>
-    
-    <img src={navlogo} className="navlogophone"/>
+    <Link><img src={navlogo} className="navlogophone"/></Link>
+   
     <span className="iconHover"> <FontAwesomeIcon icon={faMagnifyingGlass} /></span>
     <Link to="/userlogin"> <span className="iconHover"><FontAwesomeIcon icon={faUser} /></span> </Link>
 

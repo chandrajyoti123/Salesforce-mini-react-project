@@ -8,16 +8,16 @@ export default function FreeTrile() {
     return (
         <>
             <div className="free-trile">
-                <div className="col">
-                    <div className="margins">
-                        <h2 className='heading' > Try Salesforce for free. No credit card required, no software to install. </h2>
+                <div className="freetrialcol">
+                    {/* <div className="margins"> */}
+                        <h2 className=' textalignstart' > Try Salesforce for free. No credit card required, no software to install. </h2>
                         <div className="button-container" >
                             <DarkButton text={"Start Free Trial"} color={'BlueButton'} />
                             <Button text={" See pricing"} />
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
-                <div className="col">
+                <div className="freetrialcol">
                     <div className="margins">
                         <img src={Image} alt='Image' className="Image" />
                     </div>

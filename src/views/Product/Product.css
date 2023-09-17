@@ -67,3 +67,17 @@
     width: 45px;
 
    }
+
+   /* -------------------mediaquery-------------- */
+
+   @media screen and (max-width:600px){
+    .sideBar{
+     
+      flex-direction: column;
+  
+  }
+  .sidebarright{
+    width: 100vw;
+  }
+
+   }
