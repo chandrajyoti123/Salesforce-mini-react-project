@@ -55,3 +55,40 @@
 .sectionthreetext{
     text-align: center;
 }
+.sectionthreephonecards{
+    display: none;
+}
+
+
+/* ----------meida query ---------- */
+
+@media screen and (max-width:600px){
+   .sectionthreesolgen{
+    padding: 0 30px;
+   }
+   .sectionthreesolgen1{
+    padding: 0 20px;
+   }
+   
+    .carddisplay{
+        display: none;
+    }
+
+    .sectionthreephonecards{
+        width: 100vw;
+        display: flex;
+    }
+    .phonecard1{
+        width: 50%;
+        display: flex;
+        align-items: end; 
+        flex-direction: column;
+    }
+    .phonecard2{
+        width: 50%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+
+}

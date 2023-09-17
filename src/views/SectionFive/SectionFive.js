@@ -7,7 +7,7 @@ import './SectionFive.css'
 export default function SectionFive(){
     return(
     <div>
-        <div className="SectionSevenSlogen">How can we help grow your business? </div>
+        <div className="SectionSevenSlogen sectionfiveslogen">How can we help grow your business? </div>
         <div className="sectionFivelist">
           <BusinessCard img={img1} text={"Sell Faster"}/>
       <BusinessCard img={img2} text={"Close More Deals"}/>

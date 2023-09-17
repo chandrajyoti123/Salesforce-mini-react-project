@@ -9,7 +9,7 @@ export default function SectionSeven(){
         </div>
         <div className='sectionSevenlist'>
            <div className='SectionSevenBtn'> <DarkButton text={"Contact Us"} color={"BlueButton"}/> </div>
-           <a href='#' className='sectionsevenanchor sectionFiveText'>edition & Pricing</a>
+           <a href='#' className=''>edition & Pricing</a>
         </div>
 
        </div>

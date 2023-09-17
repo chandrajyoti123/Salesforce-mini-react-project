@@ -14,7 +14,7 @@ import './SectionThree.css'
 export default function SectionThree() {
     return (
         <div className="sectionthree">
-            <h2 className='SectionSevenSlogen '>We bring companies and customers <br/> together</h2><br/>
+            <h2 className='SectionSevenSlogen sectionthreesolgen'>We bring companies and customers <br/> together</h2><br/>
             <div className=' SectionSeventext sectionthreetext'>Salesforce is the world’s most trusted customer relationship management (CRM)<br/> platform. We help your marketing, sales, commerce, service and IT teams work as <br/>one from anywhere — so you can keep your customers happy everywhere.</div><br/>
 
             <div className='grpbtn'>
@@ -26,23 +26,43 @@ export default function SectionThree() {
              </div>
             </div>
          <br/><br/>
-            <h2 className='SectionSevenSlogen'>Over 150,000 companies, both big and small, are<br />growing their business with Salesforce.</h2><br/><br/>
+            <h2 className='SectionSevenSlogen sectionthreesolgen1'>Over 150,000 companies, both big and small, are<br />growing their business with Salesforce.</h2><br/><br/>
 <div className='viewbtn'>
 <Button text="Viwe all customers" className="customer-btn" />
 </div>
 <br/><br/>     
- <div className='companycardofsectionthree'>
+ <div className='companycardofsectionthree carddisplay'>
                 <CompanyLogoCard img={balaji} />
                 <CompanyLogoCard img={flame} />
                 <CompanyLogoCard img={genpact} />
                 <CompanyLogoCard img={godrejboyce} />
                 <CompanyLogoCard img={mahindra} />
             </div>
-            <div className='companycard'>
+            <div className='companycard   carddisplay'>
                 <CompanyLogoCard img={pepe} />
                 <CompanyLogoCard img={razorpay} />
                 <CompanyLogoCard img={secutech} />
             </div>
+
+            <div className='sectionthreephonecards'>
+                <div className='phonecard1'>
+                <CompanyLogoCard img={balaji} />
+                <CompanyLogoCard img={genpact} />
+                <CompanyLogoCard img={mahindra} />
+                <CompanyLogoCard img={razorpay} />
+
+                </div>
+                <div className='phonecard2'>
+                <CompanyLogoCard img={flame} />
+                <CompanyLogoCard img={godrejboyce} />
+                <CompanyLogoCard img={pepe} />
+                <CompanyLogoCard img={secutech} />
+
+                </div>
+            </div>
+
+
+
             <div>
                 <div className='background-image'>
                     <img src={backgroundimg} className="back-image" />
