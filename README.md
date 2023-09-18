@@ -9,7 +9,12 @@
  - HTML
  - CSS
  - JAVASCRIPT
- - **REACT**
+ - **REACT**<br/>
+ In this project we use react technology .in react we use mainy <b>components , react-routing ,
+  links </b> and some other basic of reacts .
+  we learn new things during development .
+
+
 
 
  ![mainimage](./src/img/mainpage.png)
@@ -23,7 +28,7 @@ U can visit and see how exactly same website we developed using our coding skill
 This project is developed using front-end technolgy.
 this website is fully responsive and u can visit it from any online source mobile ,laptop,tablet ,desktop size computers, etc.
  
- This website include 25 pages & all the pages and component are fully design and respnsive.
+ This website include 25 pages & all the pages and component are fully design and responsive.
 
  This project is lead by <b>Ms.Chandrajyoti Adil</b>
  and other 3 group members .
