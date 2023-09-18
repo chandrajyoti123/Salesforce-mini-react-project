@@ -2,7 +2,7 @@
 
 .card{
     margin: 0 15px;
-box-shadow:0 0 10px 0 rgb(192, 191, 191);
+    box-shadow: 0 0 10px 1px rgba(144, 144, 149,0.4) ;
 height: 100px;
 width: 200px;
 border-radius: 5px;

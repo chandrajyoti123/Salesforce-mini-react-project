@@ -1,9 +1,9 @@
 .productCard{
-    height: 57vh;
-    width: 20vw;
-    box-shadow: 0 3px 5px 1px rgb(144, 144, 149) ;
+    height: 420px;
+    width: 18vw;
+    box-shadow: 0 0 10px 1px rgba(144, 144, 149,0.4) ;
     border-radius: 20px;
-    margin-top: 20px;
+    margin: 20px 10px;
 }
 
 .CardImg{
@@ -16,20 +16,22 @@
     padding: 5px;
 }
 .title{
-    font-size: 17px;
+    font-size: 22px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #032d60;
 }
 .content{
-    font-size: 15px;
+    font-size: 17px;
 }
 .link{
-    border-bottom: 2px solid #032d60;
+    text-decoration: underline;
     display: inline-block;
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 15px;
     color: #032d60;
    cursor: pointer;
+   font-weight: 700;
 }
 .link:hover{
     border-color:#0176d3 ;
@@ -38,8 +40,8 @@
 
 @media only screen and (max-width: 600px){
     .productCard{
-        height: 400px;
-        width: 80vw;
+        height: 420px;
+        width: 76vw;
         box-shadow: 0 3px 5px 1px rgb(144, 144, 149) ;
         border-radius: 20px;
         margin-top: 20px;
@@ -55,11 +57,10 @@
         font-size: 20px;
     }
     .link{
-        border-bottom: 2px solid #032d60;
-        display: inline-block;
-        margin-top: 20px;
+        
+        
+        margin-top: 25px;
         font-size: 18px;
-        color: #032d60;
-       cursor: pointer;
+        
     }
 }

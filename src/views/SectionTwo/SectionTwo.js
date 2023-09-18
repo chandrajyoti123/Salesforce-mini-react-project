@@ -1,5 +1,5 @@
 import './SectionTwo.css'
-import Button from "../../components/Button/Button"
+import Button from '../../components/Button/Button'
 import ProductCard from "../../components/ProductCard/ProductCard"
 // -------- Import Images --------- 
 import small from './smallBusiness.webp'
@@ -40,7 +40,8 @@ export default function SectionTwo() {
             <div className="container-md ">
                 <div className="row-md ">
                     <div className="col-md sectiontowbtn">
-                        <Button text="Viwe all our product" />
+                       
+                        <Button text={"View all our product"}/>
                     </div>
                 </div>
             </div>
