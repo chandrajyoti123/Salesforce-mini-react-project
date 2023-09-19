@@ -33,8 +33,48 @@
 .bg-white{
     background-color: white;
 }
+.text4{
+    font-size: 35px;
+}
 .forget{
     text-decoration: none;
     background-color: white;
     font-size: 15px;
+}
+@media screen and (max-width:600px) {
+    .loginCard{
+       width: 440px;
+      
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       border: 0.5px solid antiquewhite;
+      
+       
+
+    }
+    .inputBox{
+        height: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 22px;
+       
+    }
+    .bg-white{
+        font-size: 15px;
+    }
+    .bg-white a{
+        margin-left: 50px;
+    }
+    .inputBox:hover{
+        border-color: blue;
+    }
+    .checkbox2{
+        font-size: 1px;
+    }
+    .text4{
+        font-size: 1px;
+    }
+   
+    
 }

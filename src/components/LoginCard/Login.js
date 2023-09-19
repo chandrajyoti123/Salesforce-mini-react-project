@@ -19,13 +19,17 @@ export default function Login() {
                 <InputBox name={'Password'} />
                 <DarkButton color={'BlueButton'} text={'Login'} />
                 <div className='checkbox bg-white'>
-                    <input type="checkbox" /> <label for=''>Remember me</label>
+                    <input type="checkbox" className='checkbox2'/> <label for='' className='text4'>Remember me</label>
                 </div>
                 <hr/>
                 <div className='bg-white'>
                     <a href='#' className='forget'>Forgot your password </a>
+
+                    <a href='#' className='forget'>Use costem domain </a>
                 </div>
             </div>
+           
         </div>
+        
     )
 }
