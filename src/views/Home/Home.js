@@ -7,6 +7,7 @@ import SectionFive from "../SectionFive/SectionFive"
 import SectionSix from "../SectionSix/SectionSix"
 import SectionSeven from "../SectionSeven/SectionSeven"
 import Footer from "../../components/Footer/Footer"
+import Navhead from "../../components/Navhead/Navhead"
 import './Home.css'
 
 
@@ -17,12 +18,11 @@ import './Home.css'
 export default function Home(){
     return(
         <div className="home">
+      
+      <div className="navbarfixed">
       <Navbar/>
-      <div className="sidebar">
-        <div className="side">
-
-        </div>
       </div>
+      <Navhead/>
        <SectionOne/>
        <SectionTwo/>
        <SectionThree/>
@@ -31,6 +31,8 @@ export default function Home(){
        <SectionSix/>
        <SectionSeven/>
        <Footer/>
+      
+
        </div>
 
 

@@ -4,8 +4,8 @@
 }
 .sectionOne{
     width: 100%;
-    height: 650px;
-    background-color: rgb(235, 235, 134);
+    /* height: 650px; */
+   
     display: flex;
     justify-content: space-around;
 
@@ -39,15 +39,67 @@
 .text{
     font-size: 23px;
     margin-top: 20px;
+   
 }
 .buttonGroup{
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .buttonRight{
-    margin-left: 10px;
+    margin-left: 30px;
 
 }
 .svgpath{
     margin-top: -300px;
+}
+
+@media screen and (max-width:600px){
+    .sectionOne{
+        flex-direction: column;
+        background-color: #eaf5fe;
+
+
+    }
+    .sectionOneImage{
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+      
+    }
+
+
+    .sectionOneOfOne{
+        width: 100%;
+        padding: 20px 0;
+     
+    }
+    .sectionOneOfTwo{
+        width: 100%;
+        
+        height: 100%;
+     
+    }
+    .slogen{
+        font-size: 40px;
+        line-height: 45px;
+    padding-left: 20px;
+    }
+    .sectiononetext{
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: start;
+        padding-left: 20px;
+       
+    }
+    .buttonGroup{
+        padding-left: 20px;
+       
+       
+    }
+  
+    .buttonRight{
+        margin-left: 10px;
+    
+    }  
+
 }

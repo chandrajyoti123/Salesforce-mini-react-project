@@ -6,6 +6,8 @@
     width: 0;
     transition: 1s;
     border-radius: 5px;
+    margin: 3px 0;
+    cursor: pointer;
 }
 .ProductBar:hover{
     width: 370px;

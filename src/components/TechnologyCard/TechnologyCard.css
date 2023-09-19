@@ -1,4 +1,4 @@
-*
+/* *
 {
     margin: 0;
     padding: 0;
@@ -15,4 +15,39 @@
     padding-top: 70px;
     margin: 20px;
     font-size: 40px;
+} */
+
+.technologycard{
+    width:28vw;
+    height: 300px;
+  
+}
+.technologycardimg{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.technologycardtext{
+  text-align: start;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+
+/* --------media query----------- */
+
+
+@media screen and (max-width:600px){
+    .technologycard{
+        width:90vw;
+        height: 300px;
+      
+        margin: 30px auto 0 auto;
+    }
+    .technologycardtext{
+       
+        padding: 0 18px;
+       
+      }
+    
 }

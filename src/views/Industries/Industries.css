@@ -1,6 +1,6 @@
 .industriesupimg{
     width: 100%;
-    margin-top: -300px;
+    margin-top: -20px;
 }
 .industriesicon{
     width: 140px;
@@ -19,4 +19,7 @@
 .industriesbcimg{
     width: 100%;
     margin-top: 50px;
+}
+.textalign {
+    text-align: center;
 }

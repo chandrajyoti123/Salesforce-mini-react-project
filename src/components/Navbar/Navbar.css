@@ -15,6 +15,7 @@ font-family: 'Lato', sans-serif;
     display: flex;
   width: 100vw;
   height: 100px;
+  background-color: #fff;
 
 }
 .logo{
@@ -28,6 +29,7 @@ font-family: 'Lato', sans-serif;
 .logoSvg{
   display: block;
   margin-left:30px;
+
 }
 
 .navbarList{
@@ -49,6 +51,10 @@ font-family: 'Lato', sans-serif;
   color: #032d60;
   font-size: 20px;
   font-weight: 700;
+ 
+}
+.navbarList li:hover a{
+  color: blue;
  
 }
 .active{
@@ -103,5 +109,50 @@ font-family: 'Lato', sans-serif;
 .userLogin:hover{
   background-color: #eaf5fe;
   
+}
+.phoneheader{
+  display: none;
+}
+
+
+/* -----------meida query----------- */
+
+@media screen and (max-width:600px){
+  .header{
+    display: none;
+  }
+
+ .phoneheader{
+  display: block;
+    width: 100vw;
+    
+    padding: 10px 0;
+    background-color: white;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .navlogophone{
+    width: 70px;
+  }
+  .iconHover{
+    width: 50px;
+    height: 50px;
+   
+    
+    font-size: 25px;
+    color: #032d60;
+  }
+  .navmenu{
+    width: 45px;
+    height: 45px;
+   
+    
+    font-size: 30px;
+    color: #032d60;
+  }
+
 }
 

@@ -4,11 +4,14 @@
    margin: 0;
    padding: 0;
 }
+.sectionsevencontainer{
+    width: 100vw;
+}
 .sectionSeven{
     background-color:rgb(199, 167, 199);
-    width: 90vw;
+    width: 90%;
     height:600px;
-    margin: 100px auto;
+    margin: 20px auto 100px auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -17,15 +20,16 @@
   background-size: 90vw 600px;
   background-repeat: no-repeat;
   border-radius: 15px;
+  
 }
 .SectionSevenSlogen{
     text-align: center;
-    font-size: 35px;
-    color: blue;
-    font-weight: 900;
+    font-size: 40px;
+    color: #032d60;
+    font-weight: bold;
 }
 .SectionSeventext{
-    text-align: center;
+    /* text-align: center; */
     font-size: 21px;
     margin-top: 25px;
 }
@@ -40,5 +44,60 @@
 .sectionSevenlist a{
     font-size: 20px;
     margin-right: 100px;
+    color: rgb(62, 60, 60);
 
 }
+
+/* ----------media query ------------- */
+
+  @media screen and (max-width:600px){
+    .sectionSeven{
+        width: 90vw;
+        height:100vh;
+        margin: 100px auto;
+        display: flex;
+        justify-content: start;
+        box-shadow: 0 0 10px 1px rgba(144, 144, 149,0.4) ;
+      
+        align-items: center;
+      background: url('./background-image.webp');
+      background-size: 94vw 30vh;
+      background-repeat: no-repeat;
+   
+      
+      background-position: bottom;
+      padding-top: 60px;
+    }
+    .SectionSevenSlogen{
+       line-height: 45px;
+       
+    }
+    
+    .SectionSeventext{
+    
+        font-size: 20px;
+        margin:20px 0;
+        padding: 0 50px;
+        text-align: center;
+    }
+    .sectionSevenlist{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+
+    }
+    
+    .sectionSevenlist a{
+        font-size: 20px;
+        margin-right:0px;
+        margin-top: 10px;
+       
+    
+    }
+    .SectionSevenBtn{
+        /* margin: 0 auto; */
+        margin-top: 0px;
+    }
+
+} 

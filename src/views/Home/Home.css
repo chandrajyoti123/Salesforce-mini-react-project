@@ -1,20 +1,8 @@
 *{margin: 0;
 padding: 0;}
 
-.home{
-    position: relative;
+.navbarfixed{
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
-
- /* .sidebar{
-    width: 60vw;
-    height: 80vh;
-    background-color:rgb(176, 219, 112);
-    position: absolute;
-    
-}
-.side{
-    width: 100%;
-    height: 20vh;
-    background-color: red;
-    position: fixed;
-}  */

@@ -26,7 +26,7 @@ export default function SalesForce(){
             
           <img src={bcupimg} className="backgroundimgup"/>  
         <div className='SectionSevenSlogen'>Explore Salesforce+</div>
-        <div className='SectionSeventext '>Get inspired with free access to award- <br/> winning original series and live <br/> experiences.
+        <div className='SectionSeventext textalign'>Get inspired with free access to award- <br/> winning original series and live <br/> experiences.
         </div> 
         
         <div className="industriesbtn"><DarkButton text={"Visit Salesforce+"} color={"BlueButton"}/></div>
