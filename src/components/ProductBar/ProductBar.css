@@ -44,3 +44,36 @@
 .imgofproductbar{
     width: 25px;
 }
+
+
+@media screen and (max-width:600px){
+    .ProductBar{
+       
+       
+        border-radius: 3px;
+        margin: 4px 0;
+       
+    }
+    .ProductBar:hover{
+        width: 76vw;
+       
+    }
+    .ProductBarbox{
+        width: 76vw;
+        height: 45px;
+       }
+    .ProductBaricon{
+        width: 32px;
+        height: 32px;
+        margin-left: 15px;
+       }
+    
+    .ProductBartext{
+        margin-left: 15px;
+       }
+    
+    .imgofproductbar{
+        width: 20px;
+    }
+
+}

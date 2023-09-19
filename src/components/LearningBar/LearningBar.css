@@ -21,3 +21,13 @@
     font-weight: 700;
     color: #747474;
 }
+
+/* --------media query---------- */
+
+@media screen and (max-width:600px){
+    .learningbartext{
+        font-size: 18px;
+        
+    }
+
+}
