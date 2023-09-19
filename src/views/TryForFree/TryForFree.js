@@ -27,9 +27,10 @@ export default function TryForFree(){
         </div>
 
 <div className='input-card'>
-<h1 className='text-sign'>Sign</h1>
-<p className='text-sign'>page</p>
-<p className='text-sign'>syetrjydkfulg</p>
+<p className='text-sign'>Sign up now to start your free sales trial.</p>
+
+<p className='text-complete'>Complete the form to start your free trial. Our team will be in touch to help you make the most of your trial.</p>
+
 
     <div className='lfname'>
 <input type="text" className="fname" name="fname" value="First Name"/>
@@ -77,6 +78,13 @@ export default function TryForFree(){
   <option value="audi">Yemen</option>
 </select>
 </div>
+
+<input type="checkbox" className="agree-text" name="vehicle1" value="Bike"/>
+  <label for="text"> I agree to the Main Services Agreement.</label><br></br>
+
+<p className='text-by'>By registering, you confirm that you agree to the storing and processing of your personal data by Salesforce as described in the Privacy Statement.</p>
+
+<button className='start-btn'> START MY FREE TRIAL</button>
 
 </div>
 </div>
