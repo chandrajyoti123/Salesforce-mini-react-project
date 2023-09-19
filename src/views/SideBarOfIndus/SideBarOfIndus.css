@@ -1,6 +1,6 @@
 .leftsidebar{
     width: 50vw;
-    height: 100vh;
+    height: 85vh;
     overflow: scroll;
     padding: 100px 0 0 280px;
 
@@ -22,3 +22,17 @@
     font-weight: 500;
   }
   
+
+
+  /* --------media query ---------- */
+
+  @media screen and (max-width:600px){
+    .leftsidebar{
+      width: 100vw;
+      height: auto;
+     overflow: auto;
+      padding: 50px 10px;
+  
+  }
+
+  }
