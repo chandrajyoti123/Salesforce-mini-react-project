@@ -7,8 +7,8 @@ import trialsales from './trialsales.png'
 export default function TryForFree(){
     return(
 <div className='sales-container'>
-    <div>
-<img src={salesforce} className='image-salesforce'/>
+    <div className='image-salesforce'>
+<img src={salesforce}/>
 </div>
 <div className='salesforce-text'>
         <h2 className='start-text'>Start your free trial.</h2><br/>
@@ -21,7 +21,7 @@ export default function TryForFree(){
         <li className='no-text'>Guided experiences for sales reps, leaders, and administrators</li>
         <li className='no-text'>Online training and live onboarding webinars</li><br/>
 
-        <p className='no-text'>Questions? Talk to an expert: <b>1800-420-7332.</b></p>
+        <p className='question-text'>Questions? Talk to an expert: <b>1800-420-7332.</b></p>
 
         <img src={trialsales} className='image-trailsalesforce'/>
         </div>
@@ -33,13 +33,13 @@ export default function TryForFree(){
 
 
     <div className='lfname'>
-<input type="text" className="fname" name="fname" value="First Name"/>
-<input type="text" className="fname" name="lname" value="Last Name"/>
+<input type="text" className="fname" name="fname" placeholder='First Name'/>
+<input type="text" className="fname" name="lname" placeholder='Last Name'/>
 </div>
 
 <div>
-<input type="text" className="lname" name="fname" value="Email"/>
-<select className="lname" name="cars">
+<input type="text" className="lname" name="Email" placeholder='Email'/>
+<select className="lname" name="job title">
 <option value="Job title">Job title</option>
   <option value="saab">Sales Manager</option>
   <option value="fiat">Marketing/PR Manager</option>
@@ -53,8 +53,8 @@ export default function TryForFree(){
 </div>
 
 <div>
-<input type="text" className="lname" name="fname" value="Company"/>
-<select className="lname" name="cars">
+<input type="text" className="lname" name="company" placeholder="Company"/>
+<select className="lname" name="employees">
 <option value="Job title">Employees</option>
   <option value="saab">1-25 Employees</option>
   <option value="fiat">26-100 Employees</option>
@@ -66,8 +66,8 @@ export default function TryForFree(){
 </div>
 
 <div>
-<input type="text" className="lname" name="fname" value="Phone"/>
-<select className="lname" name="cars">
+<input type="text" className="lname" name="phone" placeholder="Phone"/>
+<select className="lname" name="city">
 <option value="fiat">India</option>
 <option value="Job title">Country/Region</option>
   <option value="saab">United State</option>
@@ -79,7 +79,7 @@ export default function TryForFree(){
 </select>
 </div>
 
-<input type="checkbox" className="agree-text" name="vehicle1" value="Bike"/>
+<input type="checkbox" className="agree-text" name="text" value="text"/>
   <label for="text"> I agree to the Main Services Agreement.</label><br></br>
 
 <p className='text-by'>By registering, you confirm that you agree to the storing and processing of your personal data by Salesforce as described in the Privacy Statement.</p>
