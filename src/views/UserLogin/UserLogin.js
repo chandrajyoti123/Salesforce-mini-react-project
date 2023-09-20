@@ -3,6 +3,7 @@ import logo from './salesforce-logo.png'
 import Button from '../../components/Button/Button'
 
 import Login from "../../components/LoginCard/Login"
+import Bottom from '../../components/Bottom/Bottom'
 
 export default function UserLogin() {
     return (
@@ -16,9 +17,10 @@ export default function UserLogin() {
                 <Button text={'Try for Free'} className=" buttn" />
               
                 </div>
-                
-            </div>
-            <br/><br/> <br/><br/> <br/><br/>
+           
+            </div><br/>
+            <Bottom/>
+          
         </>
     )
 }
