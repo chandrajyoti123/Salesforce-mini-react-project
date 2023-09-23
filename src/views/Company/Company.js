@@ -14,7 +14,7 @@
 
 import Navbar from "../../components/Navbar/Navbar"
 
-
+import PhoneBottom from "../../components/PhoneBottom/PhoneBottom"
 import {DarkButton} from "../../components/Button/Button"
 import SideBarCompany from "./SideBarCompany/SideBarCompany"
 
@@ -30,10 +30,11 @@ export default function Company(){
        
        <div className="sideBar">
         <SideBarCompany/>
+
+        <div className="phonebottom"><PhoneBottom head={"Explore success stories"} btntext={"see all stories"}/></div>
        
         <div className='sidebarright'>
-            
-          <img src={bcupimg} className="backgroundimgup"/>  
+         <img src={bcupimg} className="backgroundimgup"/>  
         <div className='SectionSevenSlogen'>Explore succes Stories</div>
         <div className='SectionSeventext textalign'>See how our customers transform their <br/> businesses with AI + Data + CRM.
         </div> 

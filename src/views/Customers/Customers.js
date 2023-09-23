@@ -5,7 +5,7 @@
 
 import Navbar from "../../components/Navbar/Navbar"
 
-
+import PhoneBottom from "../../components/PhoneBottom/PhoneBottom"
 
 import SideBarCust from "./SideBarCust/SideBarCust"
 import bcimgbottom from './bcimgbottom.webp'
@@ -22,9 +22,10 @@ export default function Customers(){
         <Navbar/>
        
         
-       
+        <div className="phonebottom"><PhoneBottom head={"Hear our story"} btntext={"Learn about us"}/></div>
        <div className="sideBar">
         <SideBarCust/>
+        {/* Question? We can help */}
        
         <div className='sidebarright'>
         

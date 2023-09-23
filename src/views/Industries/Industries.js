@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar/Navbar"
+import PhoneBottom from "../../components/PhoneBottom/PhoneBottom"
 
 import SideBarOfIndus from "../SideBarOfIndus/SideBarOfIndus"
 import {DarkButton} from "../../components/Button/Button"
@@ -15,6 +16,8 @@ export default function Industries(){
        
        <div className="sideBar">
         <SideBarOfIndus/>
+        <div className="phonebottom"><PhoneBottom head={"Explore Salesforce for Industries."} btntext={"see all industries"}/></div>
+
         <div className='sidebarright'>
             <img src={Upimg} className="industriesupimg"/>
             <div className="industriesbtn"><img src={imgicon} className="industriesicon"/></div>

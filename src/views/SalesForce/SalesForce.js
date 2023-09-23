@@ -8,6 +8,7 @@ import Navbar from "../../components/Navbar/Navbar"
 
 import {DarkButton} from "../../components/Button/Button"
 import SideBarSales from "./SideBarSales/SideBarSales"
+import PhoneBottom from "../../components/PhoneBottom/PhoneBottom"
 
 import bcupimg from './bcimgtop.webp'
 import bcinimg from './bcimgbottom.webp'
@@ -21,6 +22,7 @@ export default function SalesForce(){
        
        <div className="sideBar">
         <SideBarSales/>
+        <div className="phonebottom"><PhoneBottom head={"Explore Salesforce+"} btntext={"Visit Salesforce+"}/></div>
        
         <div className='sidebarright'>
             

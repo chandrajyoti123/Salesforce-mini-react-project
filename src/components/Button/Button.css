@@ -8,6 +8,7 @@
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 .lineButton:hover{
     background-color: #eaf5fe;
@@ -26,6 +27,7 @@
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .BlueButton:hover{

@@ -5,7 +5,7 @@
 
 import Navbar from "../../components/Navbar/Navbar"
 
-
+import PhoneBottom from "../../components/PhoneBottom/PhoneBottom"
 
 import LearningSideBar from "./LearningSideBar/LearningSideBar"
 import bcimgbottom from './bcofbottom.webp'
@@ -25,6 +25,7 @@ export default function Learning(){
        
        <div className="sideBar">
         <LearningSideBar/>
+        <div className="phonebottom"><PhoneBottom head={"Become Trailblazer"} btntext={"Join for free"}/></div>
        
         <div className='sidebarright'>
         

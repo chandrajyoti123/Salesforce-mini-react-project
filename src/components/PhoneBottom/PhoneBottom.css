@@ -1,0 +1,28 @@
+.phonebottomcon{
+    width: 100vw;
+    height: 200px;
+    background-color: #eaf5fe;
+    overflow: hidden;
+    padding: 7% 0;
+
+  
+}
+.phonebottomcontent{
+    width: 100%;
+    padding: 0 8%;
+}
+.bcimgofphonebottom{
+    width: 100%;
+    margin-top: -160px;
+  
+ 
+
+}
+.hedingofphonebottom{
+  font-size: 25px;
+  font-weight: bold;
+  color: #032d60;
+}
+.btnofphonebottom{
+    margin-top: 15px;
+}

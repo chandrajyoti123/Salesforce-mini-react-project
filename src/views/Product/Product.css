@@ -29,20 +29,24 @@
     margin-left:65px;
     text-align: start;
     font-size: 25px; }
+
  .sidebarrightanchor{
     font-size: 25px;
     margin:20px 65px;
     text-decoration: underline;
     color: #032d60;
     font-weight: 600; }
+
    .sidebarright ul li{
     list-style: none;
     margin: 5px 40px;
     font-size: 25px;
     font-weight: 700;
     color: #032d60;}
+
    .sidebarrightbcimg{
     width: 100%; }
+
    .sidebarrighticon{
     width: 70px;
     height: 70px;
@@ -53,21 +57,30 @@
     justify-content: center;
     align-items: center;
     margin: 30px 65px; }
+
    .sidebarrightimg{
     width: 45px;
 
+   }
+   .phonebottom{
+    display: none;
    }
 
    /* -------------------mediaquery-------------- */
 
    @media screen and (max-width:600px){
+  
     .sideBar{
-     
       flex-direction: column;
   
   }
-  .sidebarright{
-    width: 100vw;
-  }
+    .sidebarright{
+    display: none;
+    }
+    .phonebottom{
+      display: block;
+    }
+ 
+
 
    }

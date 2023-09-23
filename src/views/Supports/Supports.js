@@ -13,7 +13,7 @@
 
 
 import Navbar from "../../components/Navbar/Navbar"
-
+import PhoneBottom from "../../components/PhoneBottom/PhoneBottom"
 
 import { DarkButton } from "../../components/Button/Button"
 import SideBarSup from "./SideBarSup/SideBarSup"
@@ -30,6 +30,7 @@ export default function Company(){
        
        <div className="sideBar">
         <SideBarSup/>
+        <div className="phonebottom"><PhoneBottom head={"Question? We can help"} btntext={"Visit the Help Center"}/></div>
        
         <div className='sidebarright'>
             
