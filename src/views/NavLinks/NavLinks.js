@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faMagnifyingGlass,faGlobe,faUser,faBars,faXmark} from "@fortawesome/free-solid-svg-icons";
+import {faMagnifyingGlass,faGlobe,faUser,faBars,faXmark, faPhone} from "@fortawesome/free-solid-svg-icons";
 import { DarkButton } from "../../components/Button/Button";
 
 import NavLinksBar from "../../components/NavLinksBar/NavLinksBar";
+import NavbarContactInfo from "../../components/NavbarContactInfo/NavbarContactInfo";
 
 
 
@@ -39,6 +40,10 @@ export default function Navlinks(){
 <Link className="Navlinks" to="/customers"><NavLinksBar navlinktext={"Company"}/></Link>
 <Link className="Navlinks" to="/salesforce"><NavLinksBar navlinktext={"Salesforce+"}/></Link>
 </div>
+<div className="margintop"><NavbarContactInfo icon={<FontAwesomeIcon icon={faUser} />} text={"Login"}/>
+<NavbarContactInfo icon={<FontAwesomeIcon icon={faGlobe} />} text={"Contact"}/>
+<NavbarContactInfo icon={<FontAwesomeIcon icon={faPhone} />} text={"Change Region"}/></div>
+<div className="pincode"> 1800-420-7332</div>
 
 
         
