@@ -1,17 +1,21 @@
 import './TryForFree.css'
-
+import { Link } from 'react-router-dom'
 import salesforce from './salesforce.svg'
 import trialsales from './trialsales.png'
+import { DarkButton } from '../../components/Button/Button'
+import Bottom from '../../components/Bottom/Bottom'
 
 
 export default function TryForFree(){
     return(
+
+      <div>
 <div className='sales-container'>
     <div className='image-salesforce'>
-<img src={salesforce}/>
-</div>
+<Link to="/"><img src={salesforce}/></Link>
+   </div>
 <div className='salesforce-text'>
-        <h2 className='start-text'>Start your free trial.</h2><br/>
+        <h2 className='slogen'>Start your free trial.</h2><br/>
 
         <p className='nocredit-text'>No credit card required, no software to install.</p>
         <p className='no-text'>With your 30-day trial, you get:</p>
@@ -33,8 +37,8 @@ export default function TryForFree(){
 
 
     <div className='lfname'>
-<input type="text" className="fname" name="fname" placeholder='First Name'/>
-<input type="text" className="fname" name="lname" placeholder='Last Name'/>
+<input type="text" className="lname" name="fname" placeholder='First Name'/>
+<input type="text" className="lname" name="lname" placeholder='Last Name'/>
 </div>
 
 <div>
@@ -80,14 +84,19 @@ export default function TryForFree(){
 </div>
 
 <input type="checkbox" className="agree-text" name="text" value="text"/>
-  <label for="text"> I agree to the Main Services Agreement.</label><br></br>
+     <label for="text">   I agree to the Main Services Agreement.</label><br></br>
 
 <p className='text-by'>By registering, you confirm that you agree to the storing and processing of your personal data by Salesforce as described in the Privacy Statement.</p>
 
-<button className='start-btn'> START MY FREE TRIAL</button>
+<div className='tryforfreebtn'><DarkButton text={"start my free trial"} color={"BlueButton"}/></div>
 
 </div>
 </div>
+<div className='bottomoffree'><Bottom/></div>
+
+</div>
+
+
 
         
     )

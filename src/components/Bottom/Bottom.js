@@ -8,7 +8,7 @@ export default function Bottom(){
 
         <div className="firstpartbottom">
 
-          <button className="btnrearthbottom"> <i class="fa-solid fa-globe"></i>Worldwide</button>
+          <button className="btnrearthbottom"> <i class="fa-solid fa-globe"></i> Worldwide</button>
           {/* <Button text={`${<FontAwesomeIcon icon={faGlobe} />} Worlwide`} /> */}
         </div>
 
