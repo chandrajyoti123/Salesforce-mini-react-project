@@ -1,11 +1,11 @@
 import './Login.css'
 import { DarkButton } from './../Button/Button'
 
-function InputBox({ name }) {
+function InputBox({ name,type }) {
     return (
         <>
             <label for={name} className='bg-white'>{name}</label>
-            <input type="text" id={name} className='inputBox' />
+            <input type={type} id={name} className='inputBox' />
         </>
     )
 }
@@ -15,8 +15,8 @@ export default function Login() {
         
         <div className='loginCard'>
             <div className='flex-box'>
-                <InputBox name={'Username'} />
-                <InputBox name={'Password'} />
+                <InputBox name={'Username'} type={"text"} />
+                <InputBox name={'Password'} type={"password"}/>
                 <DarkButton color={'BlueButton'} text={'Login'} />
                 <div className='checkbox bg-white'>
                     <input type="checkbox" className='checkbox2'/> <label for='' className='text4'>Remember me</label>
