@@ -20,7 +20,7 @@ export default function Product({imgofsidebar,slogen}){
         <div className="phonebottom"><PhoneBottom head={"Explore Customer 360"} btntext={"see all Salesforce  product"}/></div>
 
 
-
+        
         <div className='sidebarright'>
         <span className='sidebarrighticon'><img src={imgofsidebar==null?img:imgofsidebar}   className='sidebarrightimg'/></span>
         <div className='SectionSevenSlogen sidebarrighthead'>{slogen==null?"Customer 360":slogen}</div>
