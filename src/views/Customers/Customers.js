@@ -22,9 +22,10 @@ export default function Customers(){
         <Navbar/>
        
         
-        <div className="phonebottom"><PhoneBottom head={"Hear our story"} btntext={"Learn about us"}/></div>
+        
        <div className="sideBar">
         <SideBarCust/>
+        <div className="phonebottom"><PhoneBottom head={"Hear our story"} btntext={"Learn about us"}/></div>
         {/* Question? We can help */}
        
         <div className='sidebarright'>

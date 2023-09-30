@@ -63,7 +63,7 @@
       background: url('./background-image.webp');
       background-size: 94vw 30vh;
       background-repeat: no-repeat;
-   
+      margin-left: 15px;
       
       background-position: bottom;
       padding-top: 60px;
